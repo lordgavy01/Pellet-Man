@@ -4,8 +4,10 @@ The core projects and autograders were primarily created by John DeNero
 (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
 Student side autograding was added by Brad Miller, Nick Hay, and Pieter Abbeel (pabbeel@cs.berkeley.edu).
 # Project Details:
-**Note: Run the code on Python 2.6 or Python 2.7 else it won't work**
+
 This project is one of the Course Project of Course CS-188(Intro to AI) of Berkeley University.
+
+**Note: Run the code on Python 2.6 or Python 2.7 else it won't work**
 
 I have implemented an approximate Q-learning agent that learns weights for features of states, where many states might share the same features. The implementation is in ApproximateQAgent class in qlearningAgents.py, which is a subclass of PacmanQAgent.
 Features I have used for training are:
